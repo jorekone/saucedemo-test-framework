@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx wdio wdio.conf.ts --spec",
+    "test:all": "npx wdio run wdio.conf.ts",
+    "test:suite": "npx wdio wdio.conf.ts --suite"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jorekone/saucedemo-test-framework.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jorge O. C.",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jorekone/saucedemo-test-framework/issues"
